@@ -116,7 +116,7 @@ class Automaton:
         if state is None:
             state = self.current_state
 
-        print "Current goal: " + state.rank
+        #print "Current goal: " + state.rank
 
         for key, output_val in state.outputs.iteritems():
             # Skip any "bitX" region encodings
